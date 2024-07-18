@@ -2,32 +2,348 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.hamclo{
+   display: none;
+ }
+ 
+ .hamburger{
+   background-color: white;
+   border: 0px solid black;
+   border-radius: 18px;
+ }
+ 
+.hamburger img {
+   height: 29px;
+   width: 28px;
+   position: relative;
+ 
+   
+ }
+ .close img{
+   height: 29px;
+   width: 28px;
+   position: relative;
+   
+   
+ }
+ 
+
+@media (max-width: 840px) {
+ .page1text{
+    font-size: 4rem;
+ }
+ .p1card1{
+    width: 88vw ;
+    height: 78vh;
+ }
+ .p1card2{
+    width: 88vw ;
+    height: 78vh;
+    left:0;
+ }
+ .p1card3{
+    width: 88vw ;
+    height: 78vh;
+    left: 0;
+ }
+ .p1card4{
+    width: 88vw ;
+   height: 100vh;
+ }
+ .star1{
+    width: 35vw;
+ }
+ .dash {
+   width: 116%;
+   right: -6rem;
+ }
+ .dashleb{
+   right: -6rem;
+ }
+ .dashsub{
+   left: 102px;
+ }
+ .dashtit{
+   font-size: 2.75rem;
+ }
+ .propi{
+   top: 60%;
+   right: 45%;
+ }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@media (max-width: 755px) {
+   .page1text{
+      font-size: 3rem;
+   }
+   .p1heads{
+      font-size: 2rem;
+   }
+   .p1subti{
+      font-size: 2rem;
+   }
+}
+
+
+@media (max-width: 624px) {
+
+
+   .comment1{
+      bottom: 23rem;
+      left: 205px;
+   }
+   .comment2{
+      right: 110px;
+      bottom: 18rem;
+   }
+   .dashsub{
+      width: 50vw;
+   }
+}
+
+@media (max-width: 556px) {
+
+   .page1text {
+      font-size: 2.7rem;
   }
+  .p1subti {
+   font-size: 1.7rem;
+}
+.hamclo{
+   display: block;
+ }
+ .close{
+   display: block;
+ }
+ .hamburger img {
+   height: 29px;
+   width: 28px;
+   position: relative;
+ 
+   display: block;
+ }
+ .close img{
+   height: 29px;
+   width: 28px;
+   position: relative;
+   
+   display: block;
+ }
+.text-xl {
+   font-size: 1rem;
+   line-height: 1.75rem;
+}
+.p1heads {
+   font-size: 1.5rem;
+}
+.comment1{
+   display: none;
+}
+.comment2{
+   display: none;
+}
+.w-\[60vw\] {
+   width: 75vw;
+}
+.p1card1 {
+   width: 79vw;
+   height: 72vh;
+   padding-left: 8px;
+   padding-right: 9px;
+}
+.p1card2 {
+   width: 78vw;
+   height: 70vh;
+   left: 0;
+}
+.p1card3 {
+   width: 78vw;
+   height: 73vh;
+   left: 0;
+}
+.top-12 {
+   top: 0rem;
+   left: 34px;
+}
+.dashpage{
+   flex-direction: column;
+}
+.dashleft {
+   width: 100vw;
+   height: 77vh;
+}
+.right-\[100px\] {
+   right: 3px;
+   top: 30px;
+}
+.payment{
+   flex-direction: column;
+}
+.left-12 {
+   left: 2rem;
+}
+.w-1\/2 {
+   width: 96%;
+}
+.losi{
+   flex-direction: column;
+}
+.signupnow {
+   position: relative;
+   top: 21px;
+}
+.providers {
+   position: relative;
+   top: 16px;
+}
+.copy {
+   height: 5.5rem;
+   font-size: 18px;
+}
+.woutres{
+   display: none;
+ }
+ .noticard{
+   height: 241px;
+   background-color: white;
+    border: 1px solid beige;
+    border-radius: 24px;
+    
+ }
+ .hamclo {
+   display: flex;
+}
+ .noticardsub{
+   gap: 1.5rem;
+   top: 6rem;
+ }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+@media (max-width: 425px) {
+   .page1text {
+      font-size: 2rem;
   }
+  .gap-3 {
+   gap: 1;
+}
+.p1subti {
+   font-size: 1.2rem;
+}
+.p1card1 {
+   width: 90vw;
+   height: 73vh;
+   padding-left: 8px;
+   padding-right: 9px;
+}
+.p1card2 {
+   width: 90vw;
+   height: 66vh;
+   left: 0;
+}
+.p1card3 {
+   width: 90vw;
+   height: 73vh;
+   left: 0;
+   padding-left: 6px;
+}
+.text-2xl {
+   font-size: 1rem;
+   line-height: 2rem;
+}
+.top-12 {
+   top: 0rem;
+   left: 5px;
+}
+.dashpage {
+   flex-direction: column;
+   position: relative;
+   top: -48px;
+}
+nav {
+   z-index: 1;
+   position: relative;
+}
+.dashleft {
+   width: 100vw;
+   height: 64vh;
+}
+.right-\[100px\] {
+   right: 30px;
+   top: 30px;
+}
+.h-\[400px\] {
+   height: 274px;
+}
+.propi {
+   top: 43%;
+   right: 42%;
+}
+.page1text{
+   
+      font-weight: 900;
+  
+}
+
+ 
+}
+@media (max-width: 385px) {
+   .page1text {
+       font-size: 1.8rem;
+   }
+   .p1subti {
+      font-size: 1.3rem;
+  }
+  #sub-frame-error {
+   width: 93vw;
+   height: 81vh;
+}
+.w-\[60vw\] {
+   width: 90vw;
+   top: 23px;
+   position: relative;
+}
+
+}
+@media (max-width: 325px) {
+   .p1subti {
+      font-size: 1rem;
+  }
+  .page1text {
+   font-size: 1.5rem;
+}
+.p1heads {
+   font-size: 1.2rem;
+}
+#sub-frame-error {
+   width: 83vw;
+   height: 96vh;
+   position: relative;
+   left: 27px;
+}
+._2XBDTIVigBJDybhZvL-hU3 {
+   width: 79vw;
+   position: relative;
+   left: 33px;
+}
+.p1card4 {
+   width: 88vw;
+
+   height: 110vh;
+}
+.star {
+   gap: 34px;
+}
+.right-7 {
+   right: 0.75rem;
+}
+.dashleft {
+   width: 100vw;
+   height: 62vh;
+}
+.right-\[100px\] {
+   right: 63px;
+   top: 30px;
+}
+
 }
