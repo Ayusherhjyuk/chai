@@ -93,7 +93,7 @@ export default async function Home() {
     </div>
     
 </div>
-<div className=" relative  bottom-64 right-7">
+{/* <div className=" relative  bottom-64 right-7">
   <script src="https://cdn.lordicon.com/lordicon.js"></script>
 <lord-icon
     src="https://cdn.lordicon.com/ohfmmfhn.json"
@@ -107,14 +107,14 @@ export default async function Home() {
     src="https://cdn.lordicon.com/jtiihjyw.json"
     trigger="loop"
    >
-</lord-icon></div>
+</lord-icon></div> */}
 
 
 
 
 <div className="flex comment1 relative bottom-64 left-[250px] gap-3 bg-slate-200 w-[200px] border rounded-xl font-bold pt-3 mt-2 pb-3 ">
 <div>
-<img className='rounded-full'  width={30} height={30} src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png " alt="" /></div>
+<Image className='rounded-full'  width={30} height={30} src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png " alt="" ></Image></div>
 <div>Anie bought 5 chai</div>
 
 
@@ -123,7 +123,7 @@ export default async function Home() {
 
 <div className="flex comment2 relative bottom-64 right-[186px] gap-3 bg-slate-200 w-[200px] border rounded-xl font-bold pt-3 mt-2 pb-3 ">
 <div>
-<img className='rounded-full'  width={30} height={30} src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png " alt="" /></div>
+<Image className='rounded-full'  width={30} height={30} src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png " alt="" ></Image></div>
 <div>Alex bought 25 chai</div>
 
 
@@ -145,7 +145,7 @@ export default async function Home() {
 
 <div className="  w-[60vw] border rounded-3xl ">
 
-<img  src="https://cdn.buymeacoffee.com/assets/img/homepage/images/posts_v8.png"></img>
+<Image  src="https://cdn.buymeacoffee.com/assets/img/homepage/images/posts_v8.png" alt="" height={1000} width={1000}></Image>
 
 
 </div>
@@ -211,7 +211,7 @@ export default async function Home() {
         </svg>
     </div>
     <blockquote>
-        <p class="text-2xl font-semibold text-gray-900 dark:text-white">"We don't call them "customers" or transactions. They are your supporters."</p>
+        <p class="text-2xl font-semibold text-gray-900 dark:text-white">&quot;We don&quot;t call them &quot;customers&quot; or transactions. They are your supporters.&quot;</p>
     </blockquote>
    
 </figure>
@@ -240,7 +240,7 @@ export default async function Home() {
         </svg>
     </div>
     <blockquote>
-        <p class="text-2xl font-semibold text-gray-900 dark:text-white">"You get to talk to a human for help, or if you just like some advice to hit the ground running.."</p>
+        <p class="text-2xl font-semibold text-gray-900 dark:text-white">&quot;You get to talk to a human for help, or if you just like some advice to hit the ground running..&quot;</p>
     </blockquote>
    
 </figure>
@@ -280,7 +280,7 @@ export default async function Home() {
         </svg>
     </div>
     <blockquote>
-        <p class="text-2xl font-semibold text-gray-900 dark:text-white">"You have 100% ownership of your supporters. We never email them, and you can export the list any time you like."</p>
+        <p class="text-2xl font-semibold text-gray-900 dark:text-white">&quot;You have 100% ownership of your supporters. We never email them, and you can export the list any time you like.&quot;</p>
     </blockquote>
    
 </figure>
@@ -309,7 +309,7 @@ export default async function Home() {
         </svg>
     </div>
     <blockquote>
-        <p class="text-2xl font-semibold text-gray-900 dark:text-white">"You get paid instantly to your bank account. No more 30-day delays."</p>
+        <p class="text-2xl font-semibold text-gray-900 dark:text-white">&quot;You get paid instantly to your bank account. No more 30-day delays.&quot;</p>
     </blockquote>
    
 </figure>

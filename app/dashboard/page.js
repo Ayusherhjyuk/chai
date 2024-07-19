@@ -3,9 +3,16 @@ import React, { useEffect } from 'react';
 import { useState } from 'react';
 import { useSession, signIn, signOut } from "next-auth/react"
 import { useRouter } from 'next/navigation'
+import Image from 'next/image';
 
 
 const Dashboard = () => {
+
+  const [user, setUser] = useState({
+    phone: '',
+    work: '',
+    paymentlink: '',
+  });
     const { data: session } = useSession()
     const router =useRouter()
     useEffect(() => {
@@ -14,14 +21,23 @@ const Dashboard = () => {
       router.push('/login');
     }
   }, [session, router]);
+  
+ 
 
-  const initialUserState = {
+  useEffect(() =>{
+    
+      const initialUserState = {
     phone: localStorage.getItem('phone') || '',
     work: localStorage.getItem('work') || '',
     paymentlink: localStorage.getItem('paymentlink') || '',
   };
 
-  const [user, setUser] = useState(initialUserState);
+   
+  setUser(initialUserState);
+}, []);
+
+
+
 
   const handleInput = (e) => {
     const { name, value } = e.target;
@@ -70,7 +86,7 @@ const Dashboard = () => {
      
 <form  className=' flex  dashpage ' >
   <div className=' bg-slate-950  pt-24 w-[40%] dashleft h-[650px] flex flex-col items-center gap-7'><h1 className='dashtit text-yellow-50  text-6xl  font-bold'> Your Dashboard</h1>
-  <div className=' '><img src="/dashboard.png" alt="" /></div></div>
+  <div className=' '><Image src="/dashboard.png" alt=""  height={1000} width={1000}></Image></div></div>
     <div className="flex flex-col gap-6  mb-[4rem] w-[60%] dashright  justify-center items-center relative right-[100px] ">
 
         

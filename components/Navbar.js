@@ -3,6 +3,7 @@ import React from 'react'
 import { useSession, signIn, signOut } from "next-auth/react"
 import Link from 'next/link'
 import { useState } from 'react'
+import Image from 'next/image'
 
 
 
@@ -83,7 +84,7 @@ const Navbar = () => {
 
 <div className='  hamclo flex  flex-row-reverse '>
 <button onClick={() => setshowdropdown1(!showdropdown1)} id="dropdownNotificationButton" data-dropdown-toggle="dropdownNotification" className="relative inline-flex text-sm font-medium text-center text-gray-500 hover:text-gray-900 focus:outline-none dark:hover:text-white dark:text-gray-400" type="button">
-<img className=' relative  hamburger  size-8' src='/hamburger.png' alt='' width={1000} height={1000}></img>
+<Image className=' relative  hamburger  size-8' src='/hamburger.png' alt='' width={1000} height={1000}></Image>
 
 
 </button>

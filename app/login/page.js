@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { useSession, signIn, signOut } from "next-auth/react"
 import { useRouter } from 'next/navigation'
 
-const login = () => {
+const Login = () => {
 
    
 const { data: session } = useSession()
@@ -113,4 +113,4 @@ Sign in with Facebook
   )
 }
 
-export default login
+export default Login

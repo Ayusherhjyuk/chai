@@ -1,5 +1,6 @@
 "use client"
 import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
 import axios from 'axios'
 import { useRouter } from 'next/navigation';
 import { useSession } from 'next-auth/react';
@@ -223,12 +224,14 @@ const [users, setUsers] = useState([]);
             onMouseLeave={handleResetTextLeave}
           >
             <div className="w-screen h-[400px] relative">
-              <img
+              <Image 
                 src={imagePreview}
                 id="image-preview"
                 className="w-full h-full "
                 alt="Uploaded Image Preview"
-              />
+                height={1000}
+                width={1000}
+              ></Image>
               <span
                 id="reset-text"
                 className="absolute bottom-2 right-2 bg-white bg-opacity-50 text-gray-800 text-xs px-2 py-1 rounded cursor-pointer hidden"
@@ -242,7 +245,7 @@ const [users, setUsers] = useState([]);
       </div>
 
       <div className='propi absolute right-[48%] top-[68.5%] '>
-        <img className='rounded-full' width={60} height={60} src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="" />
+        <Image className='rounded-full' width={60} height={60} src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="" ></Image>
       </div>
 
       <div className="info flex justify-center flex-col items-center my-9">
@@ -281,7 +284,7 @@ const [users, setUsers] = useState([]);
           <ul>
 {users.map((user, index) => ( 
           
-            <li className='py-2 'key={index}>{user.name} donated {user.amount} Rs with a msg "{user.message}"</li>
+            <li className='py-2 'key={index}>{user.name} donated {user.amount} Rs with a msg &quot;{user.message}&quot;</li>
             
         
 ))}
