@@ -60,15 +60,6 @@ Open [http://localhost:3000](http://localhost:3000) to see it in action.
 
 You can start editing the page by modifying `app/page.js`. The app supports **live reload**, so changes reflect instantly.
 
----
-
-## 🌐 Deployment
-
-The easiest way to deploy your Next.js app is through **[Vercel](https://vercel.com/)** — it's made by the same team that built Next.js.
-
-For other options, refer to the official [Next.js deployment documentation](https://nextjs.org/docs/deployment).
-
----
 
 ## 📚 Learn More
 
