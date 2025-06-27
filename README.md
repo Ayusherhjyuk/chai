@@ -42,3 +42,53 @@ First, install the dependencies:
 npm install
 # or
 yarn install
+```
+
+Then run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) to see it in action.
+
+You can start editing the page by modifying `app/page.js`. The app supports **live reload**, so changes reflect instantly.
+
+---
+
+## 🌐 Deployment
+
+The easiest way to deploy your Next.js app is through **[Vercel](https://vercel.com/)** — it's made by the same team that built Next.js.
+
+For other options, refer to the official [Next.js deployment documentation](https://nextjs.org/docs/deployment).
+
+---
+
+## 📚 Learn More
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
+- [Razorpay Docs](https://razorpay.com/docs/)
+- [NextAuth.js Docs](https://next-auth.js.org/)
+- [bcrypt.js GitHub](https://github.com/kelektiv/node.bcrypt.js/)
+
+---
+
+## 💡 Why Chai?
+
+Chai isn’t just another crowdfunding clone. It’s a platform for creators to **tell their story, express their vibe, and connect with supporters**. Whether it’s a comic series, a YouTube channel, or a music album — Chai helps make the dream fundable 🚀.
+
+---
+
+## 👨‍💻 Author
+
+Made with ❤️ by **Ayush Jadhao**  
+📧 [ayushjadhao8804@gmail.com](mailto:ayushjadhao8804@gmail.com)
+
+---
