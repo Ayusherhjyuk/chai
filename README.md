@@ -2,6 +2,33 @@
 
 **Chai** is a unique **workfunding platform** that empowers creators to showcase their creative work and get funded for it. Think of it as a mini-portfolio meets crowdfunding. Artists, writers, devs — anyone can build a personal creative page and share it with the world 🌍. Supporters can view the page and fund the work directly 💸.
 
+## 🎥 Live Demo
+
+📽️ **[Watch Demo Now](https://drive.google.com/file/d/1avMVceLz-iqMWisXPeuAL2tOH_qRiRCF/view?usp=sharing)**  
+
+
+---
+
+## 🖼️ Project Screenshots
+
+![Screenshot 1](https://drive.google.com/uc?export=view&id=11W_tcaEKEOkGbOZChPrXX2zKH5zF2BOV)  
+![Screenshot 2](https://drive.google.com/uc?export=view&id=18k75a6tvrDLmV5P0wYKybc1IqA4SH78f)
+![Screenshot 6](https://drive.google.com/uc?export=view&id=1k6Mv72s-aCag8c26zUe3dnTVNTCC5bmt)
+![Screenshot 8](https://drive.google.com/uc?export=view&id=1oav7mxaD3sh1cVgJ_vSQOx4E7NeQ3wMo) 
+
+
+
+
+
+![Screenshot 4](https://drive.google.com/uc?export=view&id=1GR2KAR2WSiFHGUXqGD9KoZsFRLuPJcEe)
+![Screenshot 3](https://drive.google.com/uc?export=view&id=199cNTPhuMXkL1jJTgFEzQwmqeMBRQ03B)  
+![Screenshot 5](https://drive.google.com/uc?export=view&id=1g-T63CzRY0gtfUkqv1oK7SozYzpB0tZN)  
+  
+![Screenshot 7](https://drive.google.com/uc?export=view&id=1mSwjJ1ZT1kYpDg-sFXEQp1wa-u2ZT_hG)
+
+
+
+
 ---
 
 ## 🚀 Tech Stack
